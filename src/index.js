@@ -25,6 +25,7 @@ import ApiCallPokemon from './ApiCallPokemon.jsx';
 import NavBarRouter from './NavBarRouter.js';
 import Search from './SearchFilter/search.js';
 import Navlink from './CURD/Navlink.js';
+import ProductNavLink from './Product/ProductNavLink.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const good = ReactDOM.createRoot(document.getElementById('good'));
@@ -42,6 +43,9 @@ const reactapicallexp = ReactDOM.createRoot(document.getElementById('aPICALLPOKE
 const roterexample = ReactDOM.createRoot(document.getElementById('routerExample'));
 const SearchFilter = ReactDOM.createRoot(document.getElementById('SearchFilter'));
 const CurdOperations = ReactDOM.createRoot(document.getElementById('CurdOperations'));
+const ProductDemo = ReactDOM.createRoot(document.getElementById('Product'));
+
+
 // root.render(<Hedinone />);
 // good.render(<Greeting />);
 // clc.render(<Calculator />);
@@ -55,13 +59,12 @@ const CurdOperations = ReactDOM.createRoot(document.getElementById('CurdOperatio
 // incdecchallange.render(<IncDecChallange />);
 // keepNotesproject.render(<KeepNotes/>);
 // reactapicallexp.render(<ApiCallPokemon/>);   
-
 // // // roterexample.render(<BrowserRouter><RouterExamples /></BrowserRouter>);
-
 // // roterexample.render(<BrowserRouter><NavBarRouter /></BrowserRouter>);
 // SearchFilter.render(<Search/>);
+// CurdOperations.render(<Navlink/>);
 
-CurdOperations.render(<Navlink/>);
+ProductDemo.render(<ProductNavLink/>);
 
 
 
